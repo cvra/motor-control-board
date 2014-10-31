@@ -29,6 +29,19 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:_antenna
+LIBS:_charge-pump-regulators
+LIBS:_connectors
+LIBS:_div
+LIBS:_linear-regulators
+LIBS:_sensors
+LIBS:_stm32
+LIBS:_wireless
+LIBS:phoenix
+LIBS:National
+LIBS:Mec
+LIBS:IRF
+LIBS:cvra
 LIBS:Comp2014
 LIBS:Moteur-cache
 EELAYER 27 0

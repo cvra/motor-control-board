@@ -1,4 +1,4 @@
-update=mer 17 sep 2014 21:59:01 CEST
+update=Fre 31 Okt 2014 10:19:23 UTC
 version=1
 last_client=eeschema
 [cvpcb]
@@ -84,4 +84,18 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=Library_Kicad/Carte2014/Comp2014
+LibName31=kicad-lib/components/_antenna
+LibName32=kicad-lib/components/_charge-pump-regulators
+LibName33=kicad-lib/components/_connectors
+LibName34=kicad-lib/components/_div
+LibName35=kicad-lib/components/_linear-regulators
+LibName36=kicad-lib/components/_sensors
+LibName37=kicad-lib/components/_stm32
+LibName38=kicad-lib/components/_wireless
+LibName39=kicad-lib/components/power
+LibName40=kicad-lib/components/phoenix
+LibName41=kicad-lib/components/National
+LibName42=kicad-lib/components/Mec
+LibName43=kicad-lib/components/IRF
+LibName44=kicad-lib/components/cvra
+LibName45=kicad-lib/components/Comp2014
