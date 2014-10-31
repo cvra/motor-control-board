@@ -50,7 +50,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "21 oct 2014"
+Date "31 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -169,17 +169,6 @@ F 3 "" H 1600 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F303CC IC?
-U 1 1 543C257E
-P 5100 4300
-F 0 "IC?" H 5650 4050 60  0000 C CNN
-F 1 "STM32F303CC" H 5900 4400 60  0000 C CNN
-F 2 "" H 5100 4300 60  0000 C CNN
-F 3 "" H 5100 4300 60  0000 C CNN
-	1    5100 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L LM5106 IC?
 U 1 1 543C284B
 P 1100 5250
@@ -199,17 +188,6 @@ F 1 "LM5106" H 1900 7100 60  0000 C CNN
 F 2 "" H 1950 6350 60  0000 C CNN
 F 3 "" H 1950 6350 60  0000 C CNN
 	1    1950 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX3051 IC?
-U 1 1 543C2AA5
-P 7900 5700
-F 0 "IC?" H 7600 5650 60  0000 C CNN
-F 1 "MAX3051" H 7650 6350 60  0000 C CNN
-F 2 "" H 7900 5700 60  0000 C CNN
-F 3 "" H 7900 5700 60  0000 C CNN
-	1    7900 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -302,17 +280,6 @@ F 3 "" H 1000 1750 60  0000 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 5445DB9C
-P 4950 2850
-F 0 "C?" H 4950 2950 40  0000 L CNN
-F 1 "1uF" H 4956 2765 40  0000 L CNN
-F 2 "~" H 4988 2700 30  0000 C CNN
-F 3 "~" H 4950 2850 60  0000 C CNN
-	1    4950 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
 U 1 1 5445DBA2
 P 4100 4450
 F 0 "C?" H 4100 4550 40  0000 L CNN
@@ -320,50 +287,6 @@ F 1 "1uF" H 4106 4365 40  0000 L CNN
 F 2 "~" H 4138 4300 30  0000 C CNN
 F 3 "~" H 4100 4450 60  0000 C CNN
 	1    4100 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5445DC0F
-P 7600 3500
-F 0 "C?" H 7600 3600 40  0000 L CNN
-F 1 "1uF" H 7606 3415 40  0000 L CNN
-F 2 "~" H 7638 3350 30  0000 C CNN
-F 3 "~" H 7600 3500 60  0000 C CNN
-	1    7600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5445DC30
-P 6600 5850
-F 0 "C?" H 6600 5950 40  0000 L CNN
-F 1 "1uF" H 6606 5765 40  0000 L CNN
-F 2 "~" H 6638 5700 30  0000 C CNN
-F 3 "~" H 6600 5850 60  0000 C CNN
-	1    6600 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5445DCD1
-P 7600 3700
-F 0 "#PWR?" H 7600 3700 30  0001 C CNN
-F 1 "GND" H 7600 3630 30  0001 C CNN
-F 2 "" H 7600 3700 60  0000 C CNN
-F 3 "" H 7600 3700 60  0000 C CNN
-	1    7600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5445DCE0
-P 5400 2700
-F 0 "#PWR?" H 5400 2700 30  0001 C CNN
-F 1 "GND" H 5400 2630 30  0001 C CNN
-F 2 "" H 5400 2700 60  0000 C CNN
-F 3 "" H 5400 2700 60  0000 C CNN
-	1    5400 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -375,17 +298,6 @@ F 1 "GND" H 3800 4230 30  0001 C CNN
 F 2 "" H 3800 4300 60  0000 C CNN
 F 3 "" H 3800 4300 60  0000 C CNN
 	1    3800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5445DCFE
-P 6600 6050
-F 0 "#PWR?" H 6600 6050 30  0001 C CNN
-F 1 "GND" H 6600 5980 30  0001 C CNN
-F 2 "" H 6600 6050 60  0000 C CNN
-F 3 "" H 6600 6050 60  0000 C CNN
-	1    6600 6050
 	1    0    0    -1  
 $EndComp
 Text GLabel 2300 850  1    60   Input ~ 0
@@ -401,13 +313,7 @@ F 3 "~" H 1700 800 60  0000 C CNN
 	1    1650 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 2450 1    60   Input ~ 0
-+3.3V
 Text GLabel 3950 4650 0    60   Input ~ 0
-+3.3V
-Text GLabel 7750 3300 2    60   Input ~ 0
-+3.3V
-Text GLabel 6800 5450 2    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	1100 2300 950  2300
@@ -417,26 +323,6 @@ Wire Wire Line
 	2150 2300 2350 2300
 Wire Wire Line
 	2350 2200 2350 2600
-Wire Wire Line
-	6650 5400 6650 5650
-Wire Wire Line
-	6650 5650 6600 5650
-Wire Wire Line
-	7150 3300 7750 3300
-Wire Wire Line
-	7150 3300 7150 3700
-Wire Wire Line
-	7600 3700 7250 3700
-Wire Wire Line
-	7250 3700 7250 3800
-Wire Wire Line
-	7250 3800 7150 3800
-Wire Wire Line
-	4750 3050 5000 3050
-Wire Wire Line
-	4750 2450 4750 3050
-Wire Wire Line
-	5150 2600 5150 3050
 Wire Wire Line
 	4400 4500 4200 4500
 Wire Wire Line
@@ -453,22 +339,8 @@ Wire Wire Line
 	3800 4250 3800 4300
 Connection ~ 4100 4250
 Wire Wire Line
-	5150 2600 5400 2600
-Wire Wire Line
-	5400 2600 5400 2700
-Connection ~ 5150 2850
-Wire Wire Line
 	2300 1050 2300 850 
-Connection ~ 4750 2850
 Connection ~ 4100 4650
-Connection ~ 7600 3300
-Wire Wire Line
-	6600 6050 6500 6050
-Wire Wire Line
-	6500 6050 6500 5450
-Wire Wire Line
-	6800 5450 6650 5450
-Connection ~ 6650 5450
 Text GLabel 2350 2200 1    60   Input ~ 0
 +3.3V
 Connection ~ 2350 2300
@@ -559,8 +431,6 @@ F 3 "" H 2400 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 5450 5450 5850
-Wire Wire Line
 	5450 5850 4850 5850
 Wire Wire Line
 	4850 5850 4850 6000
@@ -568,14 +438,6 @@ Wire Wire Line
 	5100 6000 5100 5900
 Wire Wire Line
 	5100 5900 5600 5900
-Wire Wire Line
-	5600 5900 5600 5450
-Wire Wire Line
-	7150 4600 7150 5600
-Wire Wire Line
-	7150 5600 5650 5600
-Wire Wire Line
-	5650 5600 5650 6000
 Wire Wire Line
 	5650 6000 5350 6000
 $Comp
@@ -593,4 +455,26 @@ Text GLabel 4950 7600 0    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	4950 7600 5100 7600
+$Comp
+L STM32F303CCT6 U?
+U 1 1 545365E2
+P 6800 3550
+F 0 "U?" H 6800 3600 60  0000 C CNN
+F 1 "STM32F303CCT6" H 6800 3900 60  0000 C CNN
+F 2 "MODULE" H 6800 3650 60  0001 C CNN
+F 3 "DOCUMENTATION" H 6800 3650 60  0001 C CNN
+	1    6800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX3051 U?
+U 1 1 545365F7
+P 8650 6150
+F 0 "U?" H 9050 6500 50  0000 C CNN
+F 1 "MAX3051" H 8350 6500 50  0000 C CNN
+F 2 "MODULE" H 8650 6150 50  0001 C CNN
+F 3 "CAN Transceiver" H 8650 6150 50  0001 C CNN
+	1    8650 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
