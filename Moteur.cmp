@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = Mercredi 12 novembre 2014 21:23:54
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 13 Nov 2014 14:03:16 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -354,14 +354,14 @@ BeginCmp
 TimeStamp = /5454D881;
 Reference = U1;
 ValeurCmp = STM32F303CCT6;
-IdModule  = MODULE;
+IdModule  = _LQFP48;
 EndCmp
 
 BeginCmp
 TimeStamp = /54554655;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = ;
+IdModule  = _TSX-3225-SMD-XTAL;
 EndCmp
 
 EndListe
