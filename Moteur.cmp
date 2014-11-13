@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 13 Nov 2014 14:34:20 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 13 Nov 2014 14:52:51 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /54550D3F;
 Reference = IC3;
 ValeurCmp = MAX3051;
-IdModule  = ;
+IdModule  = _SOT23-8;
 EndCmp
 
 BeginCmp
@@ -246,9 +246,9 @@ IdModule  = _Pin2mm_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /545F859B;
+TimeStamp = /5464C6E4;
 Reference = P7;
-ValeurCmp = Gpio;
+ValeurCmp = GPIO;
 IdModule  = _Pin2mm_5z;
 EndCmp
 
@@ -256,28 +256,28 @@ BeginCmp
 TimeStamp = /5454D8F9;
 Reference = Q1;
 ValeurCmp = IRF8721;
-IdModule  = transistor-power-SOT669;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D8FA;
 Reference = Q2;
 ValeurCmp = IRF8721;
-IdModule  = transistor-power-SOT669;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D908;
 Reference = Q3;
 ValeurCmp = IRF8721;
-IdModule  = transistor-power-SOT669;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D907;
 Reference = Q4;
 ValeurCmp = IRF8721;
-IdModule  = transistor-power-SOT669;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
