@@ -1,38 +1,38 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 13 Nov 2014 14:03:16 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 13 Nov 2014 14:34:20 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D868;
 Reference = C2;
 ValeurCmp = 100nF;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D869;
 Reference = C3;
 ValeurCmp = 4.7uF;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454DAFF;
 Reference = C4;
 ValeurCmp = 470n;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545568C7;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /545A9A06;
 Reference = C8;
 ValeurCmp = 1uF;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
@@ -95,21 +95,28 @@ BeginCmp
 TimeStamp = /5454D8F6;
 Reference = C14;
 ValeurCmp = 47nF;
-IdModule  = SM1206;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545A9ED0;
 Reference = C15;
-ValeurCmp = 47nF;
-IdModule  = SM1206;
+ValeurCmp = 100nF;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D90B;
 Reference = C16;
 ValeurCmp = 47nF;
-IdModule  = SM1206;
+IdModule  = _0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464C052;
+Reference = C17;
+ValeurCmp = 1uF;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
@@ -193,56 +200,56 @@ BeginCmp
 TimeStamp = /545AB33A;
 Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F853E;
 Reference = P1;
 ValeurCmp = Bus2;
-IdModule  = ;
+IdModule  = _Pin2mm_4z;
 EndCmp
 
 BeginCmp
 TimeStamp = /545AB8AA;
 Reference = P2;
-ValeurCmp = Motor;
-IdModule  = ;
+ValeurCmp = MotorEnc;
+IdModule  = _Pin2mm_5z;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F8518;
 Reference = P3;
 ValeurCmp = Bus1;
-IdModule  = ;
+IdModule  = _Pin2mm_4z;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F8576;
 Reference = P4;
 ValeurCmp = Motor;
-IdModule  = ;
+IdModule  = _Pin2mm_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F85B0;
 Reference = P5;
 ValeurCmp = DBG;
-IdModule  = ;
+IdModule  = _Pin2mm_7z;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F858C;
 Reference = P6;
-ValeurCmp = PWM;
-IdModule  = ;
+ValeurCmp = PWR;
+IdModule  = _Pin2mm_2;
 EndCmp
 
 BeginCmp
 TimeStamp = /545F859B;
 Reference = P7;
 ValeurCmp = Gpio;
-IdModule  = ;
+IdModule  = _Pin2mm_5z;
 EndCmp
 
 BeginCmp
@@ -277,63 +284,63 @@ BeginCmp
 TimeStamp = /5454DB0E;
 Reference = R1;
 ValeurCmp = 5.6M;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454DB1D;
 Reference = R2;
 ValeurCmp = 910k;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545516B0;
 Reference = R3;
 ValeurCmp = 0R;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454FF66;
 Reference = R4;
 ValeurCmp = 22;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454FF60;
 Reference = R5;
 ValeurCmp = 47;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454FF53;
 Reference = R6;
 ValeurCmp = 39;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5455220C;
 Reference = R7;
 ValeurCmp = 120;
-IdModule  = ;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D8FC;
 Reference = R8;
 ValeurCmp = 100k;
-IdModule  = SM0805;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545A9ECA;
 Reference = R9;
-ValeurCmp = 0.01R;
-IdModule  = ;
+ValeurCmp = 330;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
@@ -347,7 +354,7 @@ BeginCmp
 TimeStamp = /5454D906;
 Reference = R11;
 ValeurCmp = 100k;
-IdModule  = SM0805;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
