@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = Samedi 15 novembre 2014 15:17:23
+Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = Samedi 15 novembre 2014 19:42:08
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /5454D862;
 Reference = D2;
 ValeurCmp = DEL_RGB;
-IdModule  = ;
+IdModule  = LedRGB;
 EndCmp
 
 BeginCmp
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /5454DAE1;
 Reference = IC1;
 ValeurCmp = TPS71501;
-IdModule  = ;
+IdModule  = CVRA-SOT23-5;
 EndCmp
 
 BeginCmp
@@ -200,7 +200,7 @@ BeginCmp
 TimeStamp = /545A89DD;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = Jumer;
 EndCmp
 
 BeginCmp

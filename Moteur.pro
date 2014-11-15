@@ -1,4 +1,4 @@
-update=Don 13 Nov 2014 15:41:26 UTC
+update=Samedi 15 novembre 2014 19:38:02
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -21,16 +21,17 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=kicad-lib/footprints/_connectors
-LibName6=kicad-lib/footprints/_div
-LibName7=kicad-lib/footprints/_lqfp
-LibName8=kicad-lib/footprints/_mech
-LibName9=kicad-lib/footprints/_sensors
-LibName10=cvra
+LibName1=Carte2014
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=kicad-lib/footprints/_connectors
+LibName7=kicad-lib/footprints/_div
+LibName8=kicad-lib/footprints/_lqfp
+LibName9=kicad-lib/footprints/_mech
+LibName10=kicad-lib/footprints/_sensors
+LibName11=cvra
 LibDir=kicad-lib/footprints
 [general]
 version=1
