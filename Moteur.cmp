@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = Samedi 15 novembre 2014 19:42:08
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 16.11.2014 01:00:15
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /5454D866;
 Reference = IC2;
 ValeurCmp = TLV710;
-IdModule  = ;
+IdModule  = CVRA-PWSON-N6;
 EndCmp
 
 BeginCmp
@@ -179,14 +179,14 @@ BeginCmp
 TimeStamp = /5454D8FD;
 Reference = IC4;
 ValeurCmp = LM5106;
-IdModule  = ;
+IdModule  = PSONL10;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D905;
 Reference = IC5;
 ValeurCmp = LM5106;
-IdModule  = ;
+IdModule  = PSONL10;
 EndCmp
 
 BeginCmp
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /545545D1;
 Reference = R10;
 ValeurCmp = 0.01R;
-IdModule  = CVRA-0805;
+IdModule  = CVRA-1206-1;
 EndCmp
 
 BeginCmp
