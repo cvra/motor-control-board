@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 16.11.2014 01:00:15
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 19 Nov 2014 19:42:51 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -144,14 +144,14 @@ BeginCmp
 TimeStamp = /5454D8F5;
 Reference = D3;
 ValeurCmp = BAV102;
-IdModule  = diode-1-SOD80C;
+IdModule  = CVRA-SOD80C;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D90C;
 Reference = D4;
 ValeurCmp = BAV102;
-IdModule  = diode-1-SOD80C;
+IdModule  = CVRA-SOD80C;
 EndCmp
 
 BeginCmp
