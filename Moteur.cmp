@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 19 Nov 2014 19:42:51 UTC
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 22.11.2014 18:47:58
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /5454D861;
 Reference = IC6;
 ValeurCmp = INA282;
-IdModule  = SO8E;
+IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp
@@ -263,28 +263,28 @@ BeginCmp
 TimeStamp = /5454D8F9;
 Reference = Q1;
 ValeurCmp = IRF8721;
-IdModule  = SO8E;
+IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D8FA;
 Reference = Q2;
 ValeurCmp = IRF8721;
-IdModule  = SO8E;
+IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D908;
 Reference = Q3;
 ValeurCmp = IRF8721;
-IdModule  = SO8E;
+IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454D907;
 Reference = Q4;
 ValeurCmp = IRF8721;
-IdModule  = SO8E;
+IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp

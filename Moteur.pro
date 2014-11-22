@@ -1,6 +1,6 @@
-update=15.11.2014 21:39:03
+update=22.11.2014 19:20:30
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -36,6 +36,11 @@ LibName12=kicad-lib/footprints/_sensors
 LibDir=kicad-lib/footprints
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -90,8 +95,3 @@ LibName42=kicad-lib/components/power
 LibName43=kicad-lib/components/_sensors
 LibName44=kicad-lib/components/_stm32
 LibName45=kicad-lib/components/_wireless
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

@@ -49,7 +49,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Carte 6 moteurs DC"
+Title "Motor control board"
 Date "13 nov 2014"
 Rev "V00"
 Comp "CVRA"
