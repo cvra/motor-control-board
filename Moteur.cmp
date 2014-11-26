@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Dimanche 23 novembre 2014 20:25:49
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 26 Nov 2014 22:19:26 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -134,10 +134,10 @@ IdModule  = CVRA-SOD80C;
 EndCmp
 
 BeginCmp
-TimeStamp = /5454D862;
+TimeStamp = /54766022;
 Reference = D2;
-ValeurCmp = DEL_RGB;
-IdModule  = Led_RGB;
+ValeurCmp = LED;
+IdModule  = _0603;
 EndCmp
 
 BeginCmp
@@ -197,13 +197,6 @@ IdModule  = CVRA-SO8E;
 EndCmp
 
 BeginCmp
-TimeStamp = /545A89DD;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = Jumer;
-EndCmp
-
-BeginCmp
 TimeStamp = /545AB33A;
 Reference = L1;
 ValeurCmp = INDUCTOR;
@@ -214,27 +207,27 @@ BeginCmp
 TimeStamp = /545F853E;
 Reference = P1;
 ValeurCmp = Bus2;
-IdModule  = _Pin2mm_4z;
+IdModule  = pin4_can_connector;
 EndCmp
 
 BeginCmp
-TimeStamp = /545AB8AA;
+TimeStamp = /547657A9;
 Reference = P2;
-ValeurCmp = MotorEnc;
-IdModule  = _Pin2mm_5z;
+ValeurCmp = CONN_6;
+IdModule  = _Pin2mm_6z;
 EndCmp
 
 BeginCmp
-TimeStamp = /545F8518;
+TimeStamp = /54764F56;
 Reference = P3;
-ValeurCmp = Bus1;
-IdModule  = _Pin2mm_4z;
+ValeurCmp = GPIO;
+IdModule  = _Pin2mm_6z;
 EndCmp
 
 BeginCmp
-TimeStamp = /545F8576;
+TimeStamp = /54765D4F;
 Reference = P4;
-ValeurCmp = Motor;
+ValeurCmp = CONN_1;
 IdModule  = _Pin2mm_2;
 EndCmp
 
@@ -246,17 +239,10 @@ IdModule  = _Pin2mm_7z;
 EndCmp
 
 BeginCmp
-TimeStamp = /545F858C;
+TimeStamp = /54765D5C;
 Reference = P6;
-ValeurCmp = PWR;
+ValeurCmp = CONN_1;
 IdModule  = _Pin2mm_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5464C6E4;
-Reference = P7;
-ValeurCmp = GPIO;
-IdModule  = _Pin2mm_5z;
 EndCmp
 
 BeginCmp
@@ -302,9 +288,9 @@ IdModule  = _0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /545516B0;
+TimeStamp = /54764FBA;
 Reference = R3;
-ValeurCmp = 0R;
+ValeurCmp = 10k;
 IdModule  = _0603;
 EndCmp
 
@@ -316,23 +302,16 @@ IdModule  = _0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5454FF60;
+TimeStamp = /54764F8C;
 Reference = R5;
-ValeurCmp = 47;
+ValeurCmp = 10k;
 IdModule  = _0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5454FF53;
+TimeStamp = /54764FA1;
 Reference = R6;
-ValeurCmp = 39;
-IdModule  = _0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5455220C;
-Reference = R7;
-ValeurCmp = 120;
+ValeurCmp = 10k;
 IdModule  = _0603;
 EndCmp
 
