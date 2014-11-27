@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 26 Nov 2014 22:19:26 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Don 27 Nov 2014 20:24:11 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -214,14 +214,14 @@ BeginCmp
 TimeStamp = /547657A9;
 Reference = P2;
 ValeurCmp = CONN_6;
-IdModule  = _Pin2mm_6z;
+IdModule  = ribbon_cable_6pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /54764F56;
 Reference = P3;
 ValeurCmp = GPIO;
-IdModule  = _Pin2mm_6z;
+IdModule  = ribbon_cable_6pin;
 EndCmp
 
 BeginCmp
