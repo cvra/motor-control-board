@@ -50,7 +50,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Motor control board"
-Date "28 nov 2014"
+Date "3 dec 2014"
 Rev "V00"
 Comp "CVRA"
 Comment1 ""
@@ -636,13 +636,13 @@ $EndComp
 $Comp
 L R R10
 U 1 1 545545D1
-P 14350 5150
-F 0 "R10" V 14430 5150 40  0000 C CNN
-F 1 "0.01R" V 14357 5151 40  0000 C CNN
-F 2 "~" V 14280 5150 30  0000 C CNN
-F 3 "~" H 14350 5150 30  0000 C CNN
-	1    14350 5150
-	0    -1   -1   0   
+P 12750 4800
+F 0 "R10" V 12830 4800 40  0000 C CNN
+F 1 "0.01R" V 12757 4801 40  0000 C CNN
+F 2 "~" V 12680 4800 30  0000 C CNN
+F 3 "~" H 12750 4800 30  0000 C CNN
+	1    12750 4800
+	-1   0    0    1   
 $EndComp
 Text GLabel 10500 3350 0    60   Input ~ 0
 Mot_En_1
@@ -1228,9 +1228,9 @@ Wire Wire Line
 	12650 2850 12650 2750
 Connection ~ 4700 4600
 Wire Wire Line
-	4700 4400 4700 4600
+	4700 4600 4700 4400
 Wire Wire Line
-	4850 4400 4700 4400
+	4700 4400 4850 4400
 Wire Wire Line
 	6400 6900 6350 6900
 Wire Wire Line
@@ -1328,20 +1328,8 @@ Wire Wire Line
 	4600 6500 4600 6650
 Wire Wire Line
 	10750 2900 10850 2900
-Connection ~ 14850 5150
 Wire Wire Line
-	12750 4550 14850 4550
-Connection ~ 13850 5150
-Wire Wire Line
-	12750 5150 12750 5300
-Wire Wire Line
-	14850 4550 14850 5500
-Wire Wire Line
-	14600 5150 14850 5150
-Wire Wire Line
-	13850 5150 13850 5500
-Wire Wire Line
-	12750 5150 14100 5150
+	12750 5050 12750 5300
 Wire Wire Line
 	950  2300 950  2500
 Wire Wire Line
@@ -1490,7 +1478,7 @@ Wire Wire Line
 	12350 2850 12350 3000
 Connection ~ 13500 3550
 Wire Wire Line
-	13500 3300 13500 3550
+	13500 3550 13500 3300
 Wire Wire Line
 	14550 2800 14550 2900
 Wire Wire Line
@@ -1726,4 +1714,14 @@ Wire Wire Line
 	1650 7250 1650 7200
 Wire Wire Line
 	1650 7200 1450 7200
+Connection ~ 12750 5150
+Wire Wire Line
+	14850 5500 14850 5150
+Wire Wire Line
+	14850 5150 12750 5150
+Wire Wire Line
+	13850 5500 13850 4500
+Wire Wire Line
+	13850 4500 12750 4500
+Connection ~ 12750 4500
 $EndSCHEMATC
