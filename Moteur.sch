@@ -50,7 +50,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Motor control board"
-Date "4 dec 2014"
+Date "6 dec 2014"
 Rev "V00"
 Comp "CVRA"
 Comment1 ""
@@ -898,7 +898,7 @@ F 3 "" H 2600 9100 60  0000 C CNN
 	1    2600 9100
 	-1   0    0    1   
 $EndComp
-Text GLabel 3000 9150 2    60   Input ~ 0
+Text GLabel 3000 9250 2    60   Input ~ 0
 CANL
 Text GLabel 2300 7500 2    60   Input ~ 0
 I
@@ -1187,7 +1187,7 @@ $EndComp
 NoConn ~ 6350 5900
 Text Notes 12700 6250 0    60   ~ 0
 Fc = 4.8kHz
-Text GLabel 3000 9250 2    60   Input ~ 0
+Text GLabel 3000 9150 2    60   Input ~ 0
 CANH
 Wire Wire Line
 	3350 4100 3350 4200

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 03 Dez 2014 19:40:16 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sam 06 Dez 2014 12:06:12 UTC
 
 BeginCmp
 TimeStamp = /5454DAF0;
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /54765D4F;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = _Pin2mm_2;
+IdModule  = PWR_Conn;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /54765D5C;
 Reference = P6;
 ValeurCmp = CONN_1;
-IdModule  = _Pin2mm_2;
+IdModule  = PWR_Conn;
 EndCmp
 
 BeginCmp
