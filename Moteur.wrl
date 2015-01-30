@@ -6,7 +6,7 @@ Transform {
   children [
 Transform {
   rotation -0.577 0.577 0.577 4.19
-  translation 1.2397 -2.1897 0.8
+  translation 1.2905 -2.2405 0.8
   scale 1.0084 1.0084 1.0084
   children [
     Inline {
@@ -346,20 +346,20 @@ Transform {
   }
 Transform {
   rotation 0 0 1 4.71
-  translation 7.2105 0.7535 0.8
+  translation 7.0835 0.7535 1.562
   scale 1.0084 1.0084 1.0084
   children [
     Inline {
-      url "/home/saladin/Documents/cvra/motor-control-board/shapes3D/1206_985-1547-1-nd.wrl"
+      url "/home/saladin/Documents/cvra/motor-control-board/shapes3D/cvra-sod80c.wrl"
     } ]
   }
 Transform {
   rotation 0.707 0.707 4.33e-17 3.14
-  translation 7.2105 0.7535 -0.8
+  translation 7.0835 0.7535 -1.562
   scale 1.0084 1.0084 1.0084
   children [
     Inline {
-      url "/home/saladin/Documents/cvra/motor-control-board/shapes3D/1206_985-1547-1-nd.wrl"
+      url "/home/saladin/Documents/cvra/motor-control-board/shapes3D/cvra-sod80c.wrl"
     } ]
   }
 Transform {
