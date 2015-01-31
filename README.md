@@ -1,7 +1,7 @@
 CVRA DC-Motor Controller
 ========================
 
-![pcb](pcb-preview.png?raw=true)
+![pcb](img/pcb-preview.png?raw=true)
 
 
 Features:
