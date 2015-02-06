@@ -1,6 +1,6 @@
-update=22.11.2014 19:20:30
+update=Fri 06 Feb 2015 10:38:21 PM CET
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -95,3 +95,16 @@ LibName42=kicad-lib/components/power
 LibName43=kicad-lib/components/_sensors
 LibName44=kicad-lib/components/_stm32
 LibName45=kicad-lib/components/_wireless
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
