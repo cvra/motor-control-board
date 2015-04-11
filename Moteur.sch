@@ -50,7 +50,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Motor control board"
-Date "3 jan 2015"
+Date "11 apr 2015"
 Rev "V00"
 Comp "CVRA"
 Comment1 ""
@@ -493,7 +493,7 @@ L R R4
 U 1 1 5454FF66
 P 8500 4200
 F 0 "R4" V 8580 4200 40  0000 C CNN
-F 1 "22" V 8507 4201 40  0000 C CNN
+F 1 "330" V 8507 4201 40  0000 C CNN
 F 2 "~" V 8430 4200 30  0000 C CNN
 F 3 "~" H 8500 4200 30  0000 C CNN
 	1    8500 4200
