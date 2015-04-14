@@ -46,7 +46,8 @@ Assembly
 
 # Baking
 
- - Move the PCB to the frame made out of plaster.
+ - Preheat the frame made out of plaster to >200°C, else it won't reflow!
+ - Move the PCB to the plaster frame.
  - Put the frame and the thermal probe in the furnace. Take care that you don't
    accidentally move any parts by touching them with the probe.
  - Heat until the solder paste starts to liquidify (shouldn't be more than
