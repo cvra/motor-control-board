@@ -39,3 +39,8 @@ This causes an audible 500Hz tone.
 (This can be mitigated by choosing the recharge period randomly between 1ms and
 2ms which spreads the noise in the spectrum between 500Hz and 1kHz which is
 less displeasing.)
+
+## TPS71501 voltage regulator issues
+
+The TPS71501 voltage regulator (IC1) gets damaged after a short time.
+It can be removed and replaced by 560 Ohm resistor connecting pads 4 and 5.
